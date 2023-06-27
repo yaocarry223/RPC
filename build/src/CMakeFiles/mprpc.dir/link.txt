@@ -1,0 +1,1 @@
+/usr/bin/g++-4.8  -fPIC -g  -shared -Wl,-soname,libmprpc.so -o ../../lib/libmprpc.so CMakeFiles/mprpc.dir/mprpcapplication.cc.o CMakeFiles/mprpc.dir/rpcprovider.cc.o  -L/home/yaocarry/桌面/RPC/lib 

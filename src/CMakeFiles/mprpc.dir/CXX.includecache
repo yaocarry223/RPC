@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yaocarry/桌面/RPC/src/mprpcapplication.cc
+mprpcapplication.h
+/home/yaocarry/桌面/RPC/src/mprpcapplication.h
+
+/home/yaocarry/桌面/RPC/src/rpcprovider.cc
+rpcprovider.h
+/home/yaocarry/桌面/RPC/src/rpcprovider.h
+
+src/include/mprpcapplication.h
+
+src/include/rpcprovider.h
+google/protobuf/service.h
+src/include/google/protobuf/service.h
+

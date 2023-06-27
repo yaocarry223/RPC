@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/yaocarry/桌面/RPC/src",
+  "command": "/usr/bin/g++-4.8   -Dmprpc_EXPORTS  -fPIC -Wall -std=c++11 -g -fPIC -I/home/yaocarry/桌面/RPC/src/include -I/home/yaocarry/桌面/RPC/example    -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/yaocarry/桌面/RPC/src/mprpcapplication.cc",
+  "file": "/home/yaocarry/桌面/RPC/src/mprpcapplication.cc"
+},
+{
+  "directory": "/home/yaocarry/桌面/RPC/src",
+  "command": "/usr/bin/g++-4.8   -Dmprpc_EXPORTS  -fPIC -Wall -std=c++11 -g -fPIC -I/home/yaocarry/桌面/RPC/src/include -I/home/yaocarry/桌面/RPC/example    -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/yaocarry/桌面/RPC/src/rpcprovider.cc",
+  "file": "/home/yaocarry/桌面/RPC/src/rpcprovider.cc"
+},
+{
+  "directory": "/home/yaocarry/桌面/RPC/example/Callee",
+  "command": "/usr/bin/g++-4.8     -fPIC -Wall -std=c++11 -g -I/home/yaocarry/桌面/RPC/src/include -I/home/yaocarry/桌面/RPC/example    -o CMakeFiles/provider.dir/userservice.cc.o -c /home/yaocarry/桌面/RPC/example/Callee/userservice.cc",
+  "file": "/home/yaocarry/桌面/RPC/example/Callee/userservice.cc"
+},
+{
+  "directory": "/home/yaocarry/桌面/RPC/example/Callee",
+  "command": "/usr/bin/g++-4.8     -fPIC -Wall -std=c++11 -g -I/home/yaocarry/桌面/RPC/src/include -I/home/yaocarry/桌面/RPC/example    -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/yaocarry/桌面/RPC/example/user.pb.cc",
+  "file": "/home/yaocarry/桌面/RPC/example/user.pb.cc"
+}
+]
