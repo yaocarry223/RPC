@@ -1,2 +1,0 @@
-/home/yaocarry/桌面/RPC/build/example/Callee/CMakeFiles/provider.dir
-/home/yaocarry/桌面/RPC/build/src/CMakeFiles/mprpc.dir
