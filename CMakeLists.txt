@@ -5,6 +5,8 @@ endif()
 
 cmake_minimum_required(VERSION 3.0)
 project(mprpc)
+#生产debug版本 可以进行调试
+#set(CMAKE_BUILD_TYPE "Debug")
 #设置可执行文件输出的路径
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
