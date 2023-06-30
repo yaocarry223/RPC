@@ -16,6 +16,28 @@ unistd.h
 string
 -
 
+/home/yaocarry/桌面/RPC/src/mprpcchannel.cc
+mprpcchannel.h
+/home/yaocarry/桌面/RPC/src/mprpcchannel.h
+string
+-
+rpcheader.pb.h
+/home/yaocarry/桌面/RPC/src/rpcheader.pb.h
+sys/types.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+unistd.h
+-
+errno.h
+-
+mprpcapplication.h
+/home/yaocarry/桌面/RPC/src/mprpcapplication.h
+
 /home/yaocarry/桌面/RPC/src/mprpcconfig.cc
 mprpcconfig.h
 /home/yaocarry/桌面/RPC/src/mprpcconfig.h
@@ -103,6 +125,14 @@ rpcheader.pb.h
 src/include/mprpcapplication.h
 mprpcconfig.h
 src/include/mprpcconfig.h
+
+src/include/mprpcchannel.h
+google/protobuf/service.h
+-
+google/protobuf/descriptor.h
+-
+google/protobuf/message.h
+-
 
 src/include/mprpcconfig.h
 unordered_map

@@ -1,0 +1,1 @@
+/usr/bin/g++-4.8    -fPIC -Wall -std=c++11 -g   CMakeFiles/consumer.dir/calluserservice.cc.o CMakeFiles/consumer.dir/__/user.pb.cc.o  -o ../../bin/consumer  -L/home/yaocarry/桌面/RPC/lib -rdynamic ../../lib/libmprpc.a -lprotobuf -lmuduo_net -lmuduo_base -lpthread -Wl,-rpath,/home/yaocarry/桌面/RPC/lib 

@@ -5,6 +5,12 @@ src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o
  /home/yaocarry/桌面/RPC/src/mprpcapplication.cc
  src/include/mprpcapplication.h
  src/include/mprpcconfig.h
+src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o
+ /home/yaocarry/桌面/RPC/src/mprpcchannel.cc
+ /home/yaocarry/桌面/RPC/src/rpcheader.pb.h
+ src/include/mprpcapplication.h
+ src/include/mprpcchannel.h
+ src/include/mprpcconfig.h
 src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o
  /home/yaocarry/桌面/RPC/src/mprpcconfig.cc
  src/include/mprpcconfig.h

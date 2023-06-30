@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yaocarry/桌面/RPC/CMakeFiles /home/yaocarry/桌面/RPC/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/yaocarry/桌面/RPC && $(CMAKE_COMMAND) -E cmake_progress_start /home/yaocarry/桌面/RPC/CMakeFiles /home/yaocarry/桌面/RPC/example/Caller/CMakeFiles/progress.marks
+	cd /home/yaocarry/桌面/RPC && $(MAKE) -f CMakeFiles/Makefile2 example/Caller/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yaocarry/桌面/RPC/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/yaocarry/桌面/RPC && $(MAKE) -f CMakeFiles/Makefile2 example/Caller/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,57 +97,87 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/yaocarry/桌面/RPC && $(MAKE) -f CMakeFiles/Makefile2 example/Caller/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/yaocarry/桌面/RPC && $(MAKE) -f CMakeFiles/Makefile2 example/Caller/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yaocarry/桌面/RPC && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named mprpc
+# Convenience name for target.
+example/Caller/CMakeFiles/consumer.dir/rule:
+	cd /home/yaocarry/桌面/RPC && $(MAKE) -f CMakeFiles/Makefile2 example/Caller/CMakeFiles/consumer.dir/rule
+.PHONY : example/Caller/CMakeFiles/consumer.dir/rule
 
-# Build rule for target.
-mprpc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mprpc
-.PHONY : mprpc
+# Convenience name for target.
+consumer: example/Caller/CMakeFiles/consumer.dir/rule
 
-# fast build rule for target.
-mprpc/fast:
-	$(MAKE) -f src/CMakeFiles/mprpc.dir/build.make src/CMakeFiles/mprpc.dir/build
-.PHONY : mprpc/fast
-
-#=============================================================================
-# Target rules for targets named provider
-
-# Build rule for target.
-provider: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 provider
-.PHONY : provider
-
-# fast build rule for target.
-provider/fast:
-	$(MAKE) -f example/Callee/CMakeFiles/provider.dir/build.make example/Callee/CMakeFiles/provider.dir/build
-.PHONY : provider/fast
-
-#=============================================================================
-# Target rules for targets named consumer
-
-# Build rule for target.
-consumer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 consumer
 .PHONY : consumer
 
 # fast build rule for target.
 consumer/fast:
-	$(MAKE) -f example/Caller/CMakeFiles/consumer.dir/build.make example/Caller/CMakeFiles/consumer.dir/build
+	cd /home/yaocarry/桌面/RPC && $(MAKE) -f example/Caller/CMakeFiles/consumer.dir/build.make example/Caller/CMakeFiles/consumer.dir/build
 .PHONY : consumer/fast
+
+__/user.pb.o: __/user.pb.cc.o
+
+.PHONY : __/user.pb.o
+
+# target to build an object file
+__/user.pb.cc.o:
+	cd /home/yaocarry/桌面/RPC && $(MAKE) -f example/Caller/CMakeFiles/consumer.dir/build.make example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.o
+.PHONY : __/user.pb.cc.o
+
+__/user.pb.i: __/user.pb.cc.i
+
+.PHONY : __/user.pb.i
+
+# target to preprocess a source file
+__/user.pb.cc.i:
+	cd /home/yaocarry/桌面/RPC && $(MAKE) -f example/Caller/CMakeFiles/consumer.dir/build.make example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.i
+.PHONY : __/user.pb.cc.i
+
+__/user.pb.s: __/user.pb.cc.s
+
+.PHONY : __/user.pb.s
+
+# target to generate assembly for a file
+__/user.pb.cc.s:
+	cd /home/yaocarry/桌面/RPC && $(MAKE) -f example/Caller/CMakeFiles/consumer.dir/build.make example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.s
+.PHONY : __/user.pb.cc.s
+
+calluserservice.o: calluserservice.cc.o
+
+.PHONY : calluserservice.o
+
+# target to build an object file
+calluserservice.cc.o:
+	cd /home/yaocarry/桌面/RPC && $(MAKE) -f example/Caller/CMakeFiles/consumer.dir/build.make example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.o
+.PHONY : calluserservice.cc.o
+
+calluserservice.i: calluserservice.cc.i
+
+.PHONY : calluserservice.i
+
+# target to preprocess a source file
+calluserservice.cc.i:
+	cd /home/yaocarry/桌面/RPC && $(MAKE) -f example/Caller/CMakeFiles/consumer.dir/build.make example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.i
+.PHONY : calluserservice.cc.i
+
+calluserservice.s: calluserservice.cc.s
+
+.PHONY : calluserservice.s
+
+# target to generate assembly for a file
+calluserservice.cc.s:
+	cd /home/yaocarry/桌面/RPC && $(MAKE) -f example/Caller/CMakeFiles/consumer.dir/build.make example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.s
+.PHONY : calluserservice.cc.s
 
 # Help Target
 help:
@@ -157,9 +187,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... mprpc"
-	@echo "... provider"
 	@echo "... consumer"
+	@echo "... __/user.pb.o"
+	@echo "... __/user.pb.i"
+	@echo "... __/user.pb.s"
+	@echo "... calluserservice.o"
+	@echo "... calluserservice.i"
+	@echo "... calluserservice.s"
 .PHONY : help
 
 
@@ -171,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yaocarry/桌面/RPC && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/yaocarry/桌面/RPC/src/mprpcapplication.cc" "/home/yaocarry/桌面/RPC/src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o"
+  "/home/yaocarry/桌面/RPC/src/mprpcchannel.cc" "/home/yaocarry/桌面/RPC/src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o"
   "/home/yaocarry/桌面/RPC/src/mprpcconfig.cc" "/home/yaocarry/桌面/RPC/src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o"
   "/home/yaocarry/桌面/RPC/src/rpcheader.pb.cc" "/home/yaocarry/桌面/RPC/src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
   "/home/yaocarry/桌面/RPC/src/rpcprovider.cc" "/home/yaocarry/桌面/RPC/src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"

@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeLists.txt"
   "example/CMakeLists.txt"
   "example/Callee/CMakeLists.txt"
+  "example/Caller/CMakeLists.txt"
   "src/CMakeLists.txt"
   "/usr/local/cmake/Modules/CMakeCInformation.cmake"
   "/usr/local/cmake/Modules/CMakeCXXInformation.cmake"
@@ -42,10 +43,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "example/CMakeFiles/CMakeDirectoryInformation.cmake"
   "example/Callee/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "example/Caller/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/mprpc.dir/DependInfo.cmake"
   "example/Callee/CMakeFiles/provider.dir/DependInfo.cmake"
+  "example/Caller/CMakeFiles/consumer.dir/DependInfo.cmake"
   )
