@@ -30,8 +30,6 @@ src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.o
  /home/yaocarry/桌面/RPC/src/rpcheader.pb.h
  /home/yaocarry/桌面/RPC/src/rpcprovider.cc
- src/include/lockqueue.h
- src/include/logger.h
  src/include/mprpcapplication.h
  src/include/mprpcchannel.h
  src/include/mprpcconfig.h

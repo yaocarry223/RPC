@@ -135,8 +135,6 @@ google/protobuf/descriptor.h
 -
 rpcheader.pb.h
 /home/yaocarry/桌面/RPC/src/rpcheader.pb.h
-logger.h
-/home/yaocarry/桌面/RPC/src/logger.h
 
 src/include/lockqueue.h
 queue

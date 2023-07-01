@@ -29,8 +29,6 @@ src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o: src/rpcheader.pb.h
 
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: src/rpcheader.pb.h
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: src/rpcprovider.cc
-src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: src/include/lockqueue.h
-src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: src/include/logger.h
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: src/include/mprpcapplication.h
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: src/include/mprpcchannel.h
 src/CMakeFiles/mprpc.dir/rpcprovider.cc.o: src/include/mprpcconfig.h

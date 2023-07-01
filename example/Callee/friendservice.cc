@@ -4,7 +4,7 @@
 #include "mprpcapplication.h"
 #include "rpcprovider.h"
 #include <vector>
-#include<logger.h>
+
 class FriendService : public fixbug::FriendServiceRpc
 {
 public:
@@ -44,8 +44,7 @@ public:
 int main(int argc, char **argv)
 {
     //调用框架初始化操作
-    Log_INFO("first log message!");
-    Log_ERR("%s:%s:%s",__FILE__, __FUNCTION__, __LINE__);
+
     MprpcApplication::Init(argc, argv);
 
     //provider是一个rpc网络服务启动一个rpc服务发布节点

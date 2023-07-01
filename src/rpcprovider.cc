@@ -4,7 +4,7 @@
 #include <functional>
 #include<google/protobuf/descriptor.h>
 #include"rpcheader.pb.h"
-#include"logger.h"
+
 /*
 service_name -> service描述
                             =》 service* 记录服务对象
