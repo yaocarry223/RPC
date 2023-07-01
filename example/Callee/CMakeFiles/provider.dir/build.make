@@ -57,64 +57,64 @@ include example/Callee/CMakeFiles/provider.dir/progress.make
 # Include the compile flags for this target's objects.
 include example/Callee/CMakeFiles/provider.dir/flags.make
 
-example/Callee/CMakeFiles/provider.dir/userservice.cc.o: example/Callee/CMakeFiles/provider.dir/flags.make
-example/Callee/CMakeFiles/provider.dir/userservice.cc.o: example/Callee/userservice.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaocarry/桌面/RPC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/Callee/CMakeFiles/provider.dir/userservice.cc.o"
-	cd /home/yaocarry/桌面/RPC/example/Callee && /usr/bin/g++-4.8   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/provider.dir/userservice.cc.o -c /home/yaocarry/桌面/RPC/example/Callee/userservice.cc
+example/Callee/CMakeFiles/provider.dir/friendservice.cc.o: example/Callee/CMakeFiles/provider.dir/flags.make
+example/Callee/CMakeFiles/provider.dir/friendservice.cc.o: example/Callee/friendservice.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaocarry/桌面/RPC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/Callee/CMakeFiles/provider.dir/friendservice.cc.o"
+	cd /home/yaocarry/桌面/RPC/example/Callee && /usr/bin/g++-4.8   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/yaocarry/桌面/RPC/example/Callee/friendservice.cc
 
-example/Callee/CMakeFiles/provider.dir/userservice.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/provider.dir/userservice.cc.i"
-	cd /home/yaocarry/桌面/RPC/example/Callee && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yaocarry/桌面/RPC/example/Callee/userservice.cc > CMakeFiles/provider.dir/userservice.cc.i
+example/Callee/CMakeFiles/provider.dir/friendservice.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/provider.dir/friendservice.cc.i"
+	cd /home/yaocarry/桌面/RPC/example/Callee && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yaocarry/桌面/RPC/example/Callee/friendservice.cc > CMakeFiles/provider.dir/friendservice.cc.i
 
-example/Callee/CMakeFiles/provider.dir/userservice.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/provider.dir/userservice.cc.s"
-	cd /home/yaocarry/桌面/RPC/example/Callee && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yaocarry/桌面/RPC/example/Callee/userservice.cc -o CMakeFiles/provider.dir/userservice.cc.s
+example/Callee/CMakeFiles/provider.dir/friendservice.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/provider.dir/friendservice.cc.s"
+	cd /home/yaocarry/桌面/RPC/example/Callee && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yaocarry/桌面/RPC/example/Callee/friendservice.cc -o CMakeFiles/provider.dir/friendservice.cc.s
 
-example/Callee/CMakeFiles/provider.dir/userservice.cc.o.requires:
+example/Callee/CMakeFiles/provider.dir/friendservice.cc.o.requires:
 
-.PHONY : example/Callee/CMakeFiles/provider.dir/userservice.cc.o.requires
+.PHONY : example/Callee/CMakeFiles/provider.dir/friendservice.cc.o.requires
 
-example/Callee/CMakeFiles/provider.dir/userservice.cc.o.provides: example/Callee/CMakeFiles/provider.dir/userservice.cc.o.requires
-	$(MAKE) -f example/Callee/CMakeFiles/provider.dir/build.make example/Callee/CMakeFiles/provider.dir/userservice.cc.o.provides.build
-.PHONY : example/Callee/CMakeFiles/provider.dir/userservice.cc.o.provides
+example/Callee/CMakeFiles/provider.dir/friendservice.cc.o.provides: example/Callee/CMakeFiles/provider.dir/friendservice.cc.o.requires
+	$(MAKE) -f example/Callee/CMakeFiles/provider.dir/build.make example/Callee/CMakeFiles/provider.dir/friendservice.cc.o.provides.build
+.PHONY : example/Callee/CMakeFiles/provider.dir/friendservice.cc.o.provides
 
-example/Callee/CMakeFiles/provider.dir/userservice.cc.o.provides.build: example/Callee/CMakeFiles/provider.dir/userservice.cc.o
+example/Callee/CMakeFiles/provider.dir/friendservice.cc.o.provides.build: example/Callee/CMakeFiles/provider.dir/friendservice.cc.o
 
 
-example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.o: example/Callee/CMakeFiles/provider.dir/flags.make
-example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.o: example/user.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaocarry/桌面/RPC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.o"
-	cd /home/yaocarry/桌面/RPC/example/Callee && /usr/bin/g++-4.8   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/yaocarry/桌面/RPC/example/user.pb.cc
+example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.o: example/Callee/CMakeFiles/provider.dir/flags.make
+example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.o: example/friend.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaocarry/桌面/RPC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.o"
+	cd /home/yaocarry/桌面/RPC/example/Callee && /usr/bin/g++-4.8   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/provider.dir/__/friend.pb.cc.o -c /home/yaocarry/桌面/RPC/example/friend.pb.cc
 
-example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/provider.dir/__/user.pb.cc.i"
-	cd /home/yaocarry/桌面/RPC/example/Callee && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yaocarry/桌面/RPC/example/user.pb.cc > CMakeFiles/provider.dir/__/user.pb.cc.i
+example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/provider.dir/__/friend.pb.cc.i"
+	cd /home/yaocarry/桌面/RPC/example/Callee && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yaocarry/桌面/RPC/example/friend.pb.cc > CMakeFiles/provider.dir/__/friend.pb.cc.i
 
-example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/provider.dir/__/user.pb.cc.s"
-	cd /home/yaocarry/桌面/RPC/example/Callee && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yaocarry/桌面/RPC/example/user.pb.cc -o CMakeFiles/provider.dir/__/user.pb.cc.s
+example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/provider.dir/__/friend.pb.cc.s"
+	cd /home/yaocarry/桌面/RPC/example/Callee && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yaocarry/桌面/RPC/example/friend.pb.cc -o CMakeFiles/provider.dir/__/friend.pb.cc.s
 
-example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.o.requires:
+example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.o.requires:
 
-.PHONY : example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.o.requires
+.PHONY : example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.o.requires
 
-example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.o.provides: example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.o.requires
-	$(MAKE) -f example/Callee/CMakeFiles/provider.dir/build.make example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.o.provides.build
-.PHONY : example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.o.provides
+example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.o.provides: example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.o.requires
+	$(MAKE) -f example/Callee/CMakeFiles/provider.dir/build.make example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.o.provides.build
+.PHONY : example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.o.provides
 
-example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.o.provides.build: example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.o
+example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.o.provides.build: example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.o
 
 
 # Object files for target provider
 provider_OBJECTS = \
-"CMakeFiles/provider.dir/userservice.cc.o" \
-"CMakeFiles/provider.dir/__/user.pb.cc.o"
+"CMakeFiles/provider.dir/friendservice.cc.o" \
+"CMakeFiles/provider.dir/__/friend.pb.cc.o"
 
 # External object files for target provider
 provider_EXTERNAL_OBJECTS =
 
-bin/provider: example/Callee/CMakeFiles/provider.dir/userservice.cc.o
-bin/provider: example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.o
+bin/provider: example/Callee/CMakeFiles/provider.dir/friendservice.cc.o
+bin/provider: example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.o
 bin/provider: example/Callee/CMakeFiles/provider.dir/build.make
 bin/provider: lib/libmprpc.a
 bin/provider: example/Callee/CMakeFiles/provider.dir/link.txt
@@ -126,8 +126,8 @@ example/Callee/CMakeFiles/provider.dir/build: bin/provider
 
 .PHONY : example/Callee/CMakeFiles/provider.dir/build
 
-example/Callee/CMakeFiles/provider.dir/requires: example/Callee/CMakeFiles/provider.dir/userservice.cc.o.requires
-example/Callee/CMakeFiles/provider.dir/requires: example/Callee/CMakeFiles/provider.dir/__/user.pb.cc.o.requires
+example/Callee/CMakeFiles/provider.dir/requires: example/Callee/CMakeFiles/provider.dir/friendservice.cc.o.requires
+example/Callee/CMakeFiles/provider.dir/requires: example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.o.requires
 
 .PHONY : example/Callee/CMakeFiles/provider.dir/requires
 

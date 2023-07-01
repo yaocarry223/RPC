@@ -6,21 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/yaocarry/桌面/RPC/example/Callee/userservice.cc
+/home/yaocarry/桌面/RPC/example/Callee/friendservice.cc
 iostream
 -
 string
 -
-user.pb.h
-/home/yaocarry/桌面/RPC/example/Callee/user.pb.h
+friend.pb.h
+/home/yaocarry/桌面/RPC/example/Callee/friend.pb.h
 mprpcapplication.h
 /home/yaocarry/桌面/RPC/example/Callee/mprpcapplication.h
 rpcprovider.h
 /home/yaocarry/桌面/RPC/example/Callee/rpcprovider.h
+vector
+-
+logger.h
+-
 
-/home/yaocarry/桌面/RPC/example/user.pb.cc
-user.pb.h
-/home/yaocarry/桌面/RPC/example/user.pb.h
+/home/yaocarry/桌面/RPC/example/friend.pb.cc
+friend.pb.h
+/home/yaocarry/桌面/RPC/example/friend.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -42,7 +46,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/yaocarry/桌面/RPC/example/user.pb.h
+/home/yaocarry/桌面/RPC/example/friend.pb.h
 limits
 -
 string
@@ -82,7 +86,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-example/user.pb.h
+example/friend.pb.h
 limits
 -
 string
@@ -120,14 +124,48 @@ google/protobuf/unknown_field_set.h
 google/protobuf/port_def.inc
 -
 google/protobuf/port_undef.inc
+-
+
+src/include/lockqueue.h
+queue
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+
+src/include/logger.h
+lockqueue.h
+src/include/lockqueue.h
+string
 -
 
 src/include/mprpcapplication.h
 mprpcconfig.h
 src/include/mprpcconfig.h
+mprpcchannel.h
+src/include/mprpcchannel.h
+mprpccontroller.h
+src/include/mprpccontroller.h
+
+src/include/mprpcchannel.h
+google/protobuf/service.h
+-
+google/protobuf/descriptor.h
+-
+google/protobuf/message.h
+-
 
 src/include/mprpcconfig.h
 unordered_map
+-
+string
+-
+
+src/include/mprpccontroller.h
+google/protobuf/service.h
 -
 string
 -

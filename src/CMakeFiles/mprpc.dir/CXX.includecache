@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/yaocarry/桌面/RPC/src/logger.cc
+logger.h
+/home/yaocarry/桌面/RPC/src/logger.h
+time.h
+-
+iostream
+-
+
 /home/yaocarry/桌面/RPC/src/mprpcapplication.cc
 mprpcapplication.h
 /home/yaocarry/桌面/RPC/src/mprpcapplication.h
@@ -37,6 +45,8 @@ errno.h
 -
 mprpcapplication.h
 /home/yaocarry/桌面/RPC/src/mprpcapplication.h
+mprpccontroller.h
+/home/yaocarry/桌面/RPC/src/mprpccontroller.h
 
 /home/yaocarry/桌面/RPC/src/mprpcconfig.cc
 mprpcconfig.h
@@ -45,6 +55,10 @@ iostream
 -
 string
 -
+
+/home/yaocarry/桌面/RPC/src/mprpccontroller.cc
+mprpccontroller.h
+/home/yaocarry/桌面/RPC/src/mprpccontroller.h
 
 /home/yaocarry/桌面/RPC/src/rpcheader.pb.cc
 rpcheader.pb.h
@@ -121,10 +135,32 @@ google/protobuf/descriptor.h
 -
 rpcheader.pb.h
 /home/yaocarry/桌面/RPC/src/rpcheader.pb.h
+logger.h
+/home/yaocarry/桌面/RPC/src/logger.h
+
+src/include/lockqueue.h
+queue
+-
+thread
+-
+mutex
+-
+condition_variable
+-
+
+src/include/logger.h
+lockqueue.h
+src/include/lockqueue.h
+string
+-
 
 src/include/mprpcapplication.h
 mprpcconfig.h
 src/include/mprpcconfig.h
+mprpcchannel.h
+src/include/mprpcchannel.h
+mprpccontroller.h
+src/include/mprpccontroller.h
 
 src/include/mprpcchannel.h
 google/protobuf/service.h
@@ -136,6 +172,12 @@ google/protobuf/message.h
 
 src/include/mprpcconfig.h
 unordered_map
+-
+string
+-
+
+src/include/mprpccontroller.h
+google/protobuf/service.h
 -
 string
 -

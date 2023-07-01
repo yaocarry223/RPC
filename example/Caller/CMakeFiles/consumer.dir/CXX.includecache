@@ -6,19 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/yaocarry/桌面/RPC/example/Caller/calluserservice.cc
+/home/yaocarry/桌面/RPC/example/Caller/callfriendservice.cc
 iostream
 -
 mprpcapplication.h
 /home/yaocarry/桌面/RPC/example/Caller/mprpcapplication.h
-user.pb.h
-/home/yaocarry/桌面/RPC/example/Caller/user.pb.h
-mprpcchannel.h
-/home/yaocarry/桌面/RPC/example/Caller/mprpcchannel.h
+friend.pb.h
+/home/yaocarry/桌面/RPC/example/Caller/friend.pb.h
 
-/home/yaocarry/桌面/RPC/example/user.pb.cc
-user.pb.h
-/home/yaocarry/桌面/RPC/example/user.pb.h
+/home/yaocarry/桌面/RPC/example/friend.pb.cc
+friend.pb.h
+/home/yaocarry/桌面/RPC/example/friend.pb.h
 algorithm
 -
 google/protobuf/io/coded_stream.h
@@ -40,7 +38,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-/home/yaocarry/桌面/RPC/example/user.pb.h
+/home/yaocarry/桌面/RPC/example/friend.pb.h
 limits
 -
 string
@@ -80,7 +78,7 @@ google/protobuf/port_def.inc
 google/protobuf/port_undef.inc
 -
 
-example/user.pb.h
+example/friend.pb.h
 limits
 -
 string
@@ -123,6 +121,10 @@ google/protobuf/port_undef.inc
 src/include/mprpcapplication.h
 mprpcconfig.h
 src/include/mprpcconfig.h
+mprpcchannel.h
+src/include/mprpcchannel.h
+mprpccontroller.h
+src/include/mprpccontroller.h
 
 src/include/mprpcchannel.h
 google/protobuf/service.h
@@ -134,6 +136,12 @@ google/protobuf/message.h
 
 src/include/mprpcconfig.h
 unordered_map
+-
+string
+-
+
+src/include/mprpccontroller.h
+google/protobuf/service.h
 -
 string
 -

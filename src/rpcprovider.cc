@@ -4,6 +4,7 @@
 #include <functional>
 #include<google/protobuf/descriptor.h>
 #include"rpcheader.pb.h"
+#include"logger.h"
 /*
 service_name -> service描述
                             =》 service* 记录服务对象
@@ -133,6 +134,7 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr &conn,
     google::protobuf::Service *service = it->second.m_service; // 获取service对象 new UserService
     const google::protobuf::MethodDescriptor *method = mit->second; //获取method对象 Login
 
+
     //生成rpc方法调用的请求request和响应response参数
      google::protobuf::Message *request = service->GetRequestPrototype(method).New();
      if(!request->ParseFromString(args_str))
@@ -150,6 +152,7 @@ void RpcProvider::OnMessage(const muduo::net::TcpConnectionPtr &conn,
     //在框架上根据远端rpc请求，调用当前rpc节点上发布的方法
     // new UserService().Login(controller,request,response,done)
     service->CallMethod(method,nullptr,request,response,done);
+    
 
 
 }

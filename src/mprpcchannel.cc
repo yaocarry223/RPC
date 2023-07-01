@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <errno.h>
 #include "mprpcapplication.h"
-
+#include "mprpccontroller.h"
 
 /*
 header_size + service_name method_name args_size + args
@@ -67,14 +67,17 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
     std::cout << "service_name: " << service_name <<std::endl;
     std::cout << "method_name: " << method_name <<std::endl;
     std::cout << "args_str: " << args_str <<std::endl;
+    
     std::cout << "============================================="<<std::endl;
 
     //使用tcp编程，完成rpc方法的远程调用
     int clientfd = socket(AF_INET,SOCK_STREAM,0);
     if(-1 == clientfd)
     {
-        std::cout << "create socket error! error:" << errno << std::endl;
-        exit(EXIT_FAILURE);
+        char errtxt[512] = {0};
+        sprintf(errtxt,"create socket error! errno:%d",errno);
+        controller->SetFailed(errtxt);
+        return;
     }
     std::string ip = MprpcApplication::GetInstance().Getconfig().Load("rpcserverip");
     uint16_t port = atoi(MprpcApplication::GetInstance().Getconfig().Load("rpcserverport").c_str());
@@ -87,15 +90,18 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
     //连接rpc服务节点
     if(-1 == connect(clientfd,(struct sockaddr*)&server_addr,sizeof(server_addr)))
     {
-        std::cout << "connect error! errrno：" << errno << std::endl;
-        close(clientfd);
-        exit(EXIT_FAILURE);
+        char errtxt[512] = {0};
+        sprintf(errtxt,"connect error! errno:%d",errno);
+        controller->SetFailed(errtxt);
+        return;
     }
     //发送rpc请求
     if(-1 == send(clientfd,send_rpc_str.c_str(),send_rpc_str.size(),0))
     {
-        std::cout << "connect error! errrno：" << errno << std::endl;
         close(clientfd);
+        char errtxt[512] = {0};
+        sprintf(errtxt,"send error! errno:%d",errno);
+        controller->SetFailed(errtxt);
         return;
     }
 
@@ -104,17 +110,21 @@ void MprpcChannel::CallMethod(const google::protobuf::MethodDescriptor* method,
     int recv_size = 0;
     if(-1 == (recv_size = recv(clientfd,recv_buf,1024,0)))
     {
-        std::cout << "connect error! errrno：" << errno << std::endl;
         close(clientfd);
+        char errtxt[512] = {0};
+        sprintf(errtxt,"recv error! errno:%d",errno);
+        controller->SetFailed(errtxt);
         return;
     }
     //反序列化rpc调用的响应数据
     std::string response_str(recv_buf,0,recv_size);
-    if(response->ParseFromString(response_str))
+    if(!response->ParseFromString(response_str))
     {
-        std::cout << "connect error! errrno：" << errno << std::endl;
         close(clientfd);
-        return ;
+        char errtxt[512] = {0};
+        sprintf(errtxt,"recv error! errno:%s",recv_buf);
+        controller->SetFailed(errtxt);
+        return;
     }
     close(clientfd);
 }   

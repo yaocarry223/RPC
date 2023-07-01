@@ -25,23 +25,33 @@
   "file": "/home/yaocarry/桌面/RPC/src/mprpcchannel.cc"
 },
 {
-  "directory": "/home/yaocarry/桌面/RPC/example/Callee",
-  "command": "/usr/bin/g++-4.8     -fPIC -Wall -std=c++11 -g -I/home/yaocarry/桌面/RPC/src/include -I/home/yaocarry/桌面/RPC/example    -o CMakeFiles/provider.dir/userservice.cc.o -c /home/yaocarry/桌面/RPC/example/Callee/userservice.cc",
-  "file": "/home/yaocarry/桌面/RPC/example/Callee/userservice.cc"
+  "directory": "/home/yaocarry/桌面/RPC/src",
+  "command": "/usr/bin/g++-4.8     -fPIC -Wall -std=c++11 -g -I/home/yaocarry/桌面/RPC/src/include -I/home/yaocarry/桌面/RPC/example    -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/yaocarry/桌面/RPC/src/mprpccontroller.cc",
+  "file": "/home/yaocarry/桌面/RPC/src/mprpccontroller.cc"
+},
+{
+  "directory": "/home/yaocarry/桌面/RPC/src",
+  "command": "/usr/bin/g++-4.8     -fPIC -Wall -std=c++11 -g -I/home/yaocarry/桌面/RPC/src/include -I/home/yaocarry/桌面/RPC/example    -o CMakeFiles/mprpc.dir/logger.cc.o -c /home/yaocarry/桌面/RPC/src/logger.cc",
+  "file": "/home/yaocarry/桌面/RPC/src/logger.cc"
 },
 {
   "directory": "/home/yaocarry/桌面/RPC/example/Callee",
-  "command": "/usr/bin/g++-4.8     -fPIC -Wall -std=c++11 -g -I/home/yaocarry/桌面/RPC/src/include -I/home/yaocarry/桌面/RPC/example    -o CMakeFiles/provider.dir/__/user.pb.cc.o -c /home/yaocarry/桌面/RPC/example/user.pb.cc",
-  "file": "/home/yaocarry/桌面/RPC/example/user.pb.cc"
+  "command": "/usr/bin/g++-4.8     -fPIC -Wall -std=c++11 -g -I/home/yaocarry/桌面/RPC/src/include -I/home/yaocarry/桌面/RPC/example    -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/yaocarry/桌面/RPC/example/Callee/friendservice.cc",
+  "file": "/home/yaocarry/桌面/RPC/example/Callee/friendservice.cc"
+},
+{
+  "directory": "/home/yaocarry/桌面/RPC/example/Callee",
+  "command": "/usr/bin/g++-4.8     -fPIC -Wall -std=c++11 -g -I/home/yaocarry/桌面/RPC/src/include -I/home/yaocarry/桌面/RPC/example    -o CMakeFiles/provider.dir/__/friend.pb.cc.o -c /home/yaocarry/桌面/RPC/example/friend.pb.cc",
+  "file": "/home/yaocarry/桌面/RPC/example/friend.pb.cc"
 },
 {
   "directory": "/home/yaocarry/桌面/RPC/example/Caller",
-  "command": "/usr/bin/g++-4.8     -fPIC -Wall -std=c++11 -g -I/home/yaocarry/桌面/RPC/src/include -I/home/yaocarry/桌面/RPC/example    -o CMakeFiles/consumer.dir/calluserservice.cc.o -c /home/yaocarry/桌面/RPC/example/Caller/calluserservice.cc",
-  "file": "/home/yaocarry/桌面/RPC/example/Caller/calluserservice.cc"
+  "command": "/usr/bin/g++-4.8     -fPIC -Wall -std=c++11 -g -I/home/yaocarry/桌面/RPC/src/include -I/home/yaocarry/桌面/RPC/example    -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/yaocarry/桌面/RPC/example/Caller/callfriendservice.cc",
+  "file": "/home/yaocarry/桌面/RPC/example/Caller/callfriendservice.cc"
 },
 {
   "directory": "/home/yaocarry/桌面/RPC/example/Caller",
-  "command": "/usr/bin/g++-4.8     -fPIC -Wall -std=c++11 -g -I/home/yaocarry/桌面/RPC/src/include -I/home/yaocarry/桌面/RPC/example    -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /home/yaocarry/桌面/RPC/example/user.pb.cc",
-  "file": "/home/yaocarry/桌面/RPC/example/user.pb.cc"
+  "command": "/usr/bin/g++-4.8     -fPIC -Wall -std=c++11 -g -I/home/yaocarry/桌面/RPC/src/include -I/home/yaocarry/桌面/RPC/example    -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/yaocarry/桌面/RPC/example/friend.pb.cc",
+  "file": "/home/yaocarry/桌面/RPC/example/friend.pb.cc"
 }
 ]

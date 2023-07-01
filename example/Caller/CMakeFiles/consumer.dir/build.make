@@ -57,64 +57,64 @@ include example/Caller/CMakeFiles/consumer.dir/progress.make
 # Include the compile flags for this target's objects.
 include example/Caller/CMakeFiles/consumer.dir/flags.make
 
-example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.o: example/Caller/CMakeFiles/consumer.dir/flags.make
-example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.o: example/Caller/calluserservice.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaocarry/桌面/RPC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.o"
-	cd /home/yaocarry/桌面/RPC/example/Caller && /usr/bin/g++-4.8   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/consumer.dir/calluserservice.cc.o -c /home/yaocarry/桌面/RPC/example/Caller/calluserservice.cc
+example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: example/Caller/CMakeFiles/consumer.dir/flags.make
+example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.o: example/Caller/callfriendservice.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaocarry/桌面/RPC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.o"
+	cd /home/yaocarry/桌面/RPC/example/Caller && /usr/bin/g++-4.8   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/yaocarry/桌面/RPC/example/Caller/callfriendservice.cc
 
-example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/consumer.dir/calluserservice.cc.i"
-	cd /home/yaocarry/桌面/RPC/example/Caller && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yaocarry/桌面/RPC/example/Caller/calluserservice.cc > CMakeFiles/consumer.dir/calluserservice.cc.i
+example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/consumer.dir/callfriendservice.cc.i"
+	cd /home/yaocarry/桌面/RPC/example/Caller && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yaocarry/桌面/RPC/example/Caller/callfriendservice.cc > CMakeFiles/consumer.dir/callfriendservice.cc.i
 
-example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/calluserservice.cc.s"
-	cd /home/yaocarry/桌面/RPC/example/Caller && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yaocarry/桌面/RPC/example/Caller/calluserservice.cc -o CMakeFiles/consumer.dir/calluserservice.cc.s
+example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/callfriendservice.cc.s"
+	cd /home/yaocarry/桌面/RPC/example/Caller && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yaocarry/桌面/RPC/example/Caller/callfriendservice.cc -o CMakeFiles/consumer.dir/callfriendservice.cc.s
 
-example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.o.requires:
+example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.o.requires:
 
-.PHONY : example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.o.requires
+.PHONY : example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.o.requires
 
-example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.o.provides: example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.o.requires
-	$(MAKE) -f example/Caller/CMakeFiles/consumer.dir/build.make example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.o.provides.build
-.PHONY : example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.o.provides
+example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.o.provides: example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.o.requires
+	$(MAKE) -f example/Caller/CMakeFiles/consumer.dir/build.make example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.o.provides.build
+.PHONY : example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.o.provides
 
-example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.o.provides.build: example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.o
+example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.o.provides.build: example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.o
 
 
-example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.o: example/Caller/CMakeFiles/consumer.dir/flags.make
-example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.o: example/user.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaocarry/桌面/RPC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.o"
-	cd /home/yaocarry/桌面/RPC/example/Caller && /usr/bin/g++-4.8   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/consumer.dir/__/user.pb.cc.o -c /home/yaocarry/桌面/RPC/example/user.pb.cc
+example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: example/Caller/CMakeFiles/consumer.dir/flags.make
+example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o: example/friend.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yaocarry/桌面/RPC/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o"
+	cd /home/yaocarry/桌面/RPC/example/Caller && /usr/bin/g++-4.8   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/yaocarry/桌面/RPC/example/friend.pb.cc
 
-example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/consumer.dir/__/user.pb.cc.i"
-	cd /home/yaocarry/桌面/RPC/example/Caller && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yaocarry/桌面/RPC/example/user.pb.cc > CMakeFiles/consumer.dir/__/user.pb.cc.i
+example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/consumer.dir/__/friend.pb.cc.i"
+	cd /home/yaocarry/桌面/RPC/example/Caller && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/yaocarry/桌面/RPC/example/friend.pb.cc > CMakeFiles/consumer.dir/__/friend.pb.cc.i
 
-example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/__/user.pb.cc.s"
-	cd /home/yaocarry/桌面/RPC/example/Caller && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yaocarry/桌面/RPC/example/user.pb.cc -o CMakeFiles/consumer.dir/__/user.pb.cc.s
+example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/consumer.dir/__/friend.pb.cc.s"
+	cd /home/yaocarry/桌面/RPC/example/Caller && /usr/bin/g++-4.8  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/yaocarry/桌面/RPC/example/friend.pb.cc -o CMakeFiles/consumer.dir/__/friend.pb.cc.s
 
-example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.o.requires:
+example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o.requires:
 
-.PHONY : example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.o.requires
+.PHONY : example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o.requires
 
-example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.o.provides: example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.o.requires
-	$(MAKE) -f example/Caller/CMakeFiles/consumer.dir/build.make example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.o.provides.build
-.PHONY : example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.o.provides
+example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o.provides: example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o.requires
+	$(MAKE) -f example/Caller/CMakeFiles/consumer.dir/build.make example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o.provides.build
+.PHONY : example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o.provides
 
-example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.o.provides.build: example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.o
+example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o.provides.build: example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o
 
 
 # Object files for target consumer
 consumer_OBJECTS = \
-"CMakeFiles/consumer.dir/calluserservice.cc.o" \
-"CMakeFiles/consumer.dir/__/user.pb.cc.o"
+"CMakeFiles/consumer.dir/callfriendservice.cc.o" \
+"CMakeFiles/consumer.dir/__/friend.pb.cc.o"
 
 # External object files for target consumer
 consumer_EXTERNAL_OBJECTS =
 
-bin/consumer: example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.o
-bin/consumer: example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.o
+bin/consumer: example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.o
+bin/consumer: example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o
 bin/consumer: example/Caller/CMakeFiles/consumer.dir/build.make
 bin/consumer: lib/libmprpc.a
 bin/consumer: example/Caller/CMakeFiles/consumer.dir/link.txt
@@ -126,8 +126,8 @@ example/Caller/CMakeFiles/consumer.dir/build: bin/consumer
 
 .PHONY : example/Caller/CMakeFiles/consumer.dir/build
 
-example/Caller/CMakeFiles/consumer.dir/requires: example/Caller/CMakeFiles/consumer.dir/calluserservice.cc.o.requires
-example/Caller/CMakeFiles/consumer.dir/requires: example/Caller/CMakeFiles/consumer.dir/__/user.pb.cc.o.requires
+example/Caller/CMakeFiles/consumer.dir/requires: example/Caller/CMakeFiles/consumer.dir/callfriendservice.cc.o.requires
+example/Caller/CMakeFiles/consumer.dir/requires: example/Caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o.requires
 
 .PHONY : example/Caller/CMakeFiles/consumer.dir/requires
 
