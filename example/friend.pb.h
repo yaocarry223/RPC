@@ -522,7 +522,7 @@ class FriendServiceRpc : public ::PROTOBUF_NAMESPACE_ID::Service {
 
   static const ::PROTOBUF_NAMESPACE_ID::ServiceDescriptor* descriptor();
 
-  virtual void GetFriendList(::PROTOBUF_NAMESPACE_ID::RpcController* controller,
+  virtual void GetFriendsList(::PROTOBUF_NAMESPACE_ID::RpcController* controller,
                        const ::fixbug::GetFriendListRequest* request,
                        ::fixbug::GetFriendListRespose* response,
                        ::google::protobuf::Closure* done);
@@ -555,7 +555,7 @@ class FriendServiceRpc_Stub : public FriendServiceRpc {
 
   // implements FriendServiceRpc ------------------------------------------
 
-  void GetFriendList(::PROTOBUF_NAMESPACE_ID::RpcController* controller,
+  void GetFriendsList(::PROTOBUF_NAMESPACE_ID::RpcController* controller,
                        const ::fixbug::GetFriendListRequest* request,
                        ::fixbug::GetFriendListRespose* response,
                        ::google::protobuf::Closure* done);

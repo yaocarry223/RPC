@@ -47,6 +47,8 @@ mprpcapplication.h
 /home/yaocarry/桌面/RPC/src/mprpcapplication.h
 mprpccontroller.h
 /home/yaocarry/桌面/RPC/src/mprpccontroller.h
+zookeeperutil.h
+/home/yaocarry/桌面/RPC/src/zookeeperutil.h
 
 /home/yaocarry/桌面/RPC/src/mprpcconfig.cc
 mprpcconfig.h
@@ -125,16 +127,24 @@ google/protobuf/port_undef.inc
 /home/yaocarry/桌面/RPC/src/rpcprovider.cc
 rpcprovider.h
 /home/yaocarry/桌面/RPC/src/rpcprovider.h
-string.h
--
 mprpcapplication.h
 /home/yaocarry/桌面/RPC/src/mprpcapplication.h
-functional
--
-google/protobuf/descriptor.h
--
 rpcheader.pb.h
 /home/yaocarry/桌面/RPC/src/rpcheader.pb.h
+logger.h
+/home/yaocarry/桌面/RPC/src/logger.h
+zookeeperutil.h
+/home/yaocarry/桌面/RPC/src/zookeeperutil.h
+
+/home/yaocarry/桌面/RPC/src/zookeeperutil.cc
+zookeeperutil.h
+/home/yaocarry/桌面/RPC/src/zookeeperutil.h
+mprpcapplication.h
+/home/yaocarry/桌面/RPC/src/mprpcapplication.h
+semaphore.h
+-
+iostream
+-
 
 src/include/lockqueue.h
 queue
@@ -200,5 +210,13 @@ functional
 google/protobuf/descriptor.h
 -
 unordered_map
+-
+
+src/include/zookeeperutil.h
+semaphore.h
+-
+zookeeper/zookeeper.h
+-
+string
 -
 

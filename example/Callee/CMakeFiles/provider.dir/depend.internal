@@ -7,6 +7,8 @@ example/Callee/CMakeFiles/provider.dir/__/friend.pb.cc.o
 example/Callee/CMakeFiles/provider.dir/friendservice.cc.o
  /home/yaocarry/桌面/RPC/example/Callee/friendservice.cc
  example/friend.pb.h
+ src/include/lockqueue.h
+ src/include/logger.h
  src/include/mprpcapplication.h
  src/include/mprpcchannel.h
  src/include/mprpcconfig.h

@@ -19,5 +19,5 @@ message GetFriendListRespose
 }
 //好友模块
 service FriendServiceRpc{
-    rpc GetFriendList(GetFriendListRequest) returns(GetFriendListRespose);
+    rpc GetFriendsList(GetFriendListRequest) returns(GetFriendListRespose);
 }

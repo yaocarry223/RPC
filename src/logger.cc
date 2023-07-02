@@ -10,7 +10,7 @@ Logger& Logger:: GetInstance()
 Logger::Logger()
 {
     //启动专门的写日志线程
-    std::thread writeLogTask([&](){});
+    std::thread writeLogTask([&](){
     for(;;)
     {
         //获取当天的日期，然后取日志信息，写入相应的日志文件当中 a+
@@ -34,7 +34,8 @@ Logger::Logger()
         msg.append("\n");
         fputs(msg.c_str(),pf);
         fclose(pf);
-    }
+         }
+    });
     //设置分离线程，守护线程
     writeLogTask.detach();
 }
